@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Расчет прочности ЖБ конструкций</string>
+    <string name="title_activity_test_actrivity">Test_Actrivity</string>
+    <string name="tab_text_1">Задача 1</string>
+    <string name="tab_text_2">Задача 2</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_test">Test</string>
+
+    <string name="Task_1_1">1.1. Подбор продольной растянутой арматуры изгибаемого элемента прямоугольного профиля</string>
+    <string name="Task_1_2">1.2. Проверка прочности нормального сечения изгибаемого элемента прямоугольного профиля с одиночной арматурой</string>
+    <string name="Task_2">2.1. Проверка прочности нормального сечения изгибаемого элемента прямоугольного профиля с двойной арматурой</string>
+    <string name="Task_3_1">3.1. Определение геометрических характеристик приведенного сечения изгибаемого элемента таврового профиля</string>
+    <string name="Task_3_2">3.2. Проверка прочности нормального сечения изгибаемого элемента таврового профиля</string>
+    <string name="Task_3_3">3.3. Подбор продольной растянутой арматуры изгибаемого элемента таврового профиля</string>
+    <string name="Task_4_1">4.1. Проверка прочности наклонных сечений и бетонной полосы между наклонными трещинами на действие поперечной силы</string>
+    <string name="Task_4_2">4.2. Проверка прочности наклонных сечений предварительно напряженного элемента на действие поперечной силы</string>
+    <string name="Task_5">5.1. Подбор продольной рабочей арматуры сжатого элемента</string>
+    <string name="Task_7">6.1. Определение потерь предварительного напряжения, усилия обжатия и его эксцентриситет в балке таврового профиля</string>
+    
+    <string-array name="ClassBetona">
+        <item>B10</item>
+        <item>B15</item>
+        <item>B20</item>
+        <item>B25</item>
+        <item>B30</item>
+        <item>B35</item>
+        <item>B40</item>
+        <item>B45</item>
+        <item>B50</item>
+        <item>B55</item>
+        <item>B60</item>
+    </string-array>
+
+    <string-array name="KolvoSt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+        
+    <string name="AsText_1">As = *** мм^2 - расчетная площадь сечения продольной арматуры.</string>
+    <string name="AsResultText_1">- расчетная площадь сечения продольной арматуры.</string>
+
+    <string name="AsText_2">As = *** мм^2 - расчетная площадь сечения арматуры.</string>
+    <string name="AsResultText_2">- расчетная площадь сечения арматуры.</string>
+
+    <string name="AsText_">As\u0027 = *** мм^2 - расчетная площадь сечения сжатой арматуры.</string>
+    <string name="AsResultText_">- расчетная площадь сечения сжатой арматуры.</string>
+
+    <string name="AsText__2">As\u0027 = *** мм^2 - площадь арматуры в сжатой зоне.</string>
+    <string name="AsResultText__2">- площадь арматуры в сжатой зоне.</string>
+
+    <string name="AspText">Asp = *** мм^2 - площадь растянутой предварительно напряженной арматуры.</string>
+    <string name="AspResultText">- площадь растянутой предварительно напряженной арматуры</string>
+
+    <string name="AstotText">As,tot = *** мм^2 - площадь сжатой арматуры.</string>
+    <string name="AstotResultText">- площадь сжатой арматуры.</string>
+
+    <string name="DiamText">ф = *** мм - подобранный диаметр рабочей арматуры.</string>
+    <string name="DiamResultText">- подобранный диаметр рабочей арматуры.</string>
+
+    <string name="DiamText_2">ф = *** - подобранный диаметр стержней.</string>
+    <string name="DiamResultText_2">- подобранный диаметр стержней.</string>
+
+    <string name="RbText">Rb = *** МПа - расчетное сопротивление бетона сжатию с учетом коэфицента Yb1.</string>
+    <string name="RbResultText">- расчетное сопротивление бетона сжатию с учетом коэфицента Yb1.</string>
+
+    <string name="RbtText">Rbt = *** МПа - расчетное сопротивление бетона растяжению.</string>
+    <string name="RbtResultText">- расчетное сопротивление бетона растяжению.</string>
+
+    <string name="RsText">Rs = *** МПа - расчетное сопротивление растяжению продольной арматуры.</string>
+    <string name="RsResultText">- расчетное сопротивление растяжению продольной арматуры.</string>
+
+    <string name="RscText">Rsc = *** МПа - расчетное сопротивление сжатию продольной арматуры.</string>
+    <string name="RscResultText">- расчетное сопротивление сжатию продольной арматуры.</string>
+
+    <string name="AlphamText">\u237Am = *** - коэффициент.</string>
+    <string name="AlphamResultText">- коэффициент.</string>
+
+    <string name="AlphaRText">\u237AR = *** - коэффициент.</string>
+    <string name="AlphaRResultText">- коэффициент.</string>
+
+    <string name="Yb1Text">Yb1 = *** - коэффициент условия работы бетона, учитывающий длительность действия нагрузки.</string>
+    <string name="Yb1ResultText">- коэффициент условия работы бетона, учитывающий длительность действия нагрузки.</string>
+
+    <string name="Yb3Text">Yb3 = *** - коэффициент условий работы, учитывающий положение элемента при бетонировании.</string>
+    <string name="Yb3ResultText">- коэффициент условий работы, учитывающий положение элемента при бетонировании.</string>
+
+    <string name="MultText">Mult = *** кН*м - момент, воспринимаемый сечением.</string>
+    <string name="MultResultText">- момент, воспринимаемы сечением.</string>
+
+    <string name="h0Text">h0 = *** мм - рабочая высота сечения.</string>
+    <string name="h0ResultText">- рабочая высота сечения.</string>
+
+    <string name="xText">x = *** мм - высота сжатой зоны сечения.</string>
+    <string name="xResultText">- высота сжатой зоны сечения.</string>
+
+    <string name="KsiText">\u03BE = *** - относительная высота сжатой зоны бетона.</string>
+    <string name="KsiResultText">- относительная высота сжатой зоны бетона.</string>
+
+    <string name="KsiRText">\u03BER = *** - граничная относительная высота сжатой зоны бетона.</string>
+    <string name="KsiRResultText">- граничная относительная высота сжатой зоны бетона.</string>
+
+    <string name="QbpText">Qбп = *** кН - прочность сечения по наклонной полосе между трещинами.</string>
+    <string name="QbpResultText">- прочность сечения по наклонной полосе между трещинами.</string>
+
+    <string name="QbText">Qb = *** кН - поперечная сила, воспринимаемая бетоном.</string>
+    <string name="QbResultText">- поперечная сила, воспринимаемая бетоном.</string>
+
+    <string name="QswText">Qsw = *** кН - поперечная сила, воспринимаемая поперечной арматурой.</string>
+    <string name="QswResultText">- поперечная сила, воспринимаемая поперечной арматурой.</string>
+
+    <string name="QbswText">Qb+Qsw = *** кН - несущая способность элемента по наклонному сечению на действие поперечной силы.</string>
+    <string name="QbswResultText">- несущая способность элемента по наклонному сечению на действие поперечной силы.</string>
+
+    <string name="d_sText">Ф.шаг = *** мм - диаметр и шаг поперечных стержней.</string>
+    <string name="d_sResultText">- диаметр и шаг поперечных стержней.</string>
+
+    <string name="MbText">Mb = *** кН*м - момент поперечной силы \u03C3b относительно грани опоры.</string>
+    <string name="MbResultText">- момент поперечной силы \u03C3b относительно грани опоры.</string>
+
+    <string name="qswText">qsw = *** кН/м - интенсивность усилий в поперечных стержнях.</string>
+    <string name="qswResultText">- интенсивность усилий в поперечных стержнях.</string>
+
+    <string name="cText">c = *** мм - пролет среза.</string>
+    <string name="cResultText">- пролет среза.</string>
+
+    <string name="c0Text">c0 = *** мм - проекция наклонной трещины.</string>
+    <string name="c0ResultText">- проекция наклонной трещины.</string>
+
+    <string name="PhinText">\u03C6n = *** - коэффициент.</string>
+    <string name="PhinResultText">- коэффициент.</string>
+
+    <string name="PhiText">\u03C6 = *** - коэффициент продольного изгиба.</string>
+    <string name="PhiResultText">- коэффициент продольного изгиба.</string>
+
+    <string name="PhibText">\u03C6b = *** - коэффициент.</string>
+    <string name="PhibResultText">- коэффициент.</string>
+
+    <string name="PhisbText">\u03C6sb = *** - коэффициент.</string>
+    <string name="PhisbResultText">- коэффициент.</string>
+
+    <string name="NultText">Nult = *** кН - несущая способность элемента.</string>
+    <string name="NultResultText">- несущая способность элемента.</string>
+
+    <string name="dswswText">dsw.sw = *** мм - диаметр и шаг поперечных стержней.</string>
+    <string name="dswswResultText">- диаметр и шаг поперечных стержней.</string>
+
+    <string name="yText">y = *** мм - растояние от оси 1-1 до центра тяжести привиденного сечения.</string>
+    <string name="yResultText">- растояние от оси 1-1 до центра тяжести привиденного сечения.</string>
+
+    <string name="AredText">Ared = *** см^2 - приведенная площадь сечения.</string>
+    <string name="AredResultText">- приведенная площадь сечения.</string>
+
+    <string name="IredText">Ired = *** см^4 - момент инерции приведенного сечения.</string>
+    <string name="IredResultText">- момент инерции приведенного сечения.</string>
+
+    <string name="WredText">Wred = *** см^3 - момент сопротивления приведенного сечения.</string>
+    <string name="WredResultText">- момент сопротивления приведенного сечения.</string>
+
+    <string name="rText">r = *** см - расстояние от центра тяжести приведнного сечения до верхней ядровой точки (радиус инерции).</string>
+    <string name="rResultText">- расстояние от центра тяжести приведнного сечения до верхней ядровой точки (радиус инерции).</string>
+
+    <string name="EbText">Eb = *** МПа - начальный модуль упругости бетона.</string>
+    <string name="EbResultText">- начальный модуль упругости бетона.</string>
+
+    <string name="EspText">Esp = *** МПа - модуль упругости арматуры.</string>
+    <string name="EspResultText">- модуль упругости арматуры.</string>
+
+    <string name="EsText">Es = *** МПа - модуль упругости арматуры.</string>
+    <string name="EsResultText">- модуль упругости арматуры.</string>
+
+    <string name="PText">P = *** кН - усилие обжатия с учетом всех потерь.</string>
+    <string name="PResultText">- силие обжатия с учетом всех потерь.</string>
+
+    <string name="e0pText">e0p = *** мм - эксцентриситет усилия обжатия.</string>
+    <string name="e0pResultText">- эксцентриситет усилия обжатия.</string>
+
+    <string name="SigmaSp2Text">\u03C3sp2 = *** МПа - предварительное напряжение с учетом всех потерь.</string>
+    <string name="SigmaSp2ResultText">- предварительное напряжение с учетом всех потерь.</string>
+
+    <string name="SigmabpText">\u03C3bp = *** МПа - напряжение в бетоне при определении \u0394\u03C3sp6.</string>
+    <string name="SigmabpResultText">- напряжение в бетоне при определении \u0394\u03C3sp6.</string>
+
+    <string name="DSigmaSp1Text">\u0394\u03C3sp1 = *** МПа - потери от релаксации предварительного напряжения.</string>
+    <string name="DSigmaSp1ResultText">- потери от релаксации предварительного напряжения.</string>
+
+    <string name="DSigmaSp2Text">\u0394\u03C3sp2 = *** МПа - потери от температурного перепада.</string>
+    <string name="DSigmaSp2ResultText">- потери от температурного перепада.</string>
+
+    <string name="DSigmaSp3Text">\u0394\u03C3sp3 = *** МПа - потери от деформации форм.</string>
+    <string name="DSigmaSp3ResultText">- потери от деформации форм.</string>
+
+    <string name="DSigmaSp4Text">\u0394\u03C3sp4 = *** МПа - потери от деформации анкеров.</string>
+    <string name="DSigmaSp4ResultText">- потери от деформации анкеров.</string>
+
+    <string name="DSigmaSp5Text">\u0394\u03C3sp5 = *** МПа - потери от усадки бетона.</string>
+    <string name="DSigmaSp5ResultText">- потери от усадки бетона.</string>
+
+    <string name="DSigmaSp6Text">\u0394\u03C3sp6 = *** МПа - потери от ползучести бетона.</string>
+    <string name="DSigmaSp6ResultText">- потери от ползучести бетона.</string>
+
+
+
+</resources>
